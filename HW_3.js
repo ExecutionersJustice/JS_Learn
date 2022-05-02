@@ -194,3 +194,21 @@ function companyOverview (enterprises) {
 companyOverview(enterprises)
 
 // ----------------------------------------------------------------------------------------------------------
+
+function getEnterpriseName (value) {
+  for (let i = 0; i < enterprises.length; i++) {
+    for (let k = 0; k < enterprises[i].departments.length; k++) {
+      if (value == enterprises[i].departments[k].id) {
+        return enterprises[i].name
+      }
+      else if (value == enterprises[i].departments[k].name) {
+        return enterprises[i].name
+      }
+      else {
+        continue
+      }
+    }
+  }
+}
+
+console.log(getEnterpriseName("Отдел охраны труда"))
