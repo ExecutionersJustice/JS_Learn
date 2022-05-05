@@ -1,15 +1,15 @@
-// let item_1 = 0;
+let item_1 = 0;
 
-// while (item_1 < 100) {
-//     console.log(item_1 + "DVP");
-//     item_1++;
-// }
+while (item_1 < 100) {
+    console.log(item_1 + "DVP");
+    item_1++;
+}
 
-// console.log(item_1);
+console.log(item_1);
 
-// for (let i = 0; i < 10; i++) {
-//     console.log(i, "= FOR")
-// }
+for (let i = 0; i < 10; i++) {
+    console.log(i, "= FOR")
+}
   
 let names = ["Kate", "Alex", "Ivan", "Ignat", "Andrey", "Vika"];
 
@@ -21,13 +21,13 @@ while (count < items) {
     count++
 }
 
-// console.log(items);
+console.log(items);
 
 
-// for (let item in names) {
-//     console.log(item, names[item])
-// }
+for (let item in names) {
+    console.log(item, names[item])
+}
 
-// for (let item of names) {
-//     console.log(item)
-// }
+for (let item of names) {
+    console.log(item)
+}
